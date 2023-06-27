@@ -2,9 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
-        <section class="row" aria-labelledby="aspnetTitle">
-            Rentals<br />
-        </section>
+        <asp:Label ID="Label1" runat="server" Font-Size="20pt" Text="Mange Rentals"></asp:Label>
     </main>
 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="Rental_ID" DataSourceID="RentalTBL" ForeColor="Black" AllowSorting="True">
     <Columns>
