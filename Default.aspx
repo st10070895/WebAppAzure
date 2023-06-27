@@ -4,8 +4,7 @@
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
-            <asp:Label ID="Label1" runat="server" Text="Manage Cars, Inspectors, and Drivers" Font-Size="20pt" Font-Underline="True"></asp:Label>
-            <br />
+            Cars, Inspectors, and Drivers<br />
         </section>
     </main>
 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="Car_ID" DataSourceID="VechileTBL" ForeColor="Black" AllowSorting="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
